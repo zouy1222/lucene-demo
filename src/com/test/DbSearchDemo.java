@@ -31,10 +31,10 @@ import com.test.util.JdbcUtil;
  */
 public class DbSearchDemo
 {
-	public static final String INDEX_PATH = "E:\\lucene-db";
-	public static final String JDBC_URL = "jdbc:mysql://localhost:3306/lucene-demo?useUnicode=true&characterEncoding=utf-8";
+	public static final String INDEX_PATH = "D:\\lucene";
+	public static final String JDBC_URL = "jdbc:mysql://localhost:3306/lucene_blog?useUnicode=true&characterEncoding=utf-8";
 	public static final String USER = "root";
-	public static final String PWD = "root";
+	public static final String PWD = "123456";
 	
 	/**
 	 * 创建索引

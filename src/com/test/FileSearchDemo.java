@@ -40,8 +40,8 @@ import com.test.util.FileUtil;
  */
 public class FileSearchDemo
 {
-	public static final String INDEX_PATH = "E:\\lucene"; // 存放Lucene索引文件的位置
-	public static final String SCAN_PATH = "E:\\text"; // 需要被扫描的位置，测试的时候记得多在这下面放一些文件
+	public static final String INDEX_PATH = "D:\\lucene"; // 存放Lucene索引文件的位置
+	public static final String SCAN_PATH = "D:\\struts2"; // 需要被扫描的位置，测试的时候记得多在这下面放一些文件
 	
 	/**
 	 * 创建索引

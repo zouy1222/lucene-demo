@@ -44,9 +44,9 @@ public class JdbcUtil
 	 */
 	public JdbcUtil()
 	{
-		String url="jdbc:mysql://172.16.4.253:3306/new-health-province?useUnicode=true&characterEncoding=utf-8";
-		String user="test";
-		String password="test";
+		String url="jdbc:mysql://127.0.0.1:3306/lucene_blog?useUnicode=true&characterEncoding=utf-8";
+		String user="root";
+		String password="123456";
 		getConnection("mysql", url, user, password);
 	}
 	
